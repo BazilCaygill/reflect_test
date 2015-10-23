@@ -21,3 +21,16 @@ git diff [filename]
 git diff -- staged
 git diff -- staged [filename]
 
+
+11:55:14 (master) asteroids $ git branch
+* master
+11:55:21 (master) asteroids $ git branch easymode
+11:55:35 (master) asteroids $ git branch
+  easymode
+* master
+11:55:40 (master) asteroids $ git checkout easymode
+Switched to branch 'easymode'
+11:56:41 (easymode) asteroids $ git branch
+* easymode
+  master
+

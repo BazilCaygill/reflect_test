@@ -62,3 +62,32 @@ origin  https://github.com/BazilCaygill/recipes.git (fetch)
 origin  https://github.com/BazilCaygill/recipes.git (push)
 
 
+17:04:37 (master) recipes $ git fetch origin
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/BazilCaygill/recipes
+   f635b11..570b364  master     -> origin/master
+17:06:52 (master) recipes $ git merge master origin/master
+Updating f635b11..570b364
+Fast-forward
+ cocktail-recipe.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+17:07:13 (master) recipes $ git hist
+* 570b364 2015-10-23 | anchovies (HEAD, origin/master, origin/HEAD, master) [Bazil Caygill]
+* f635b11 2015-10-23 | tequila!! [Bazil Caygill]
+*   55033da 2015-10-23 | Merge remote-tracking branch 'origin/master' [Bazil Caygill]
+|\
+| * 804fdf7 2015-10-23 | Remove cumin from chili [Sarah Spikes]
+* | 54d3f49 2015-10-23 | add dirt to the chilli. yum [Bazil Caygill]
+|/
+* a373412 2015-10-23 | add gibson cocktail [Bazil Caygill]
+* a6a2f99 2014-09-25 | Add a chili recipe [Larry Madrigal]
+* b361250 2014-09-25 | Add a cake and frosting recipe [Larry Madrigal]
+* 2050b37 2014-09-25 | Add content to README [Larry Madrigal]
+* 267c56d 2014-09-25 | Initial commit [Larry Madrigal]
+17:07:21 (master) recipes $
+
+
+

@@ -14,3 +14,10 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 git add lesson_1_reflections.txt
 
+git commit
+
+git diff
+git diff [filename]
+git diff -- staged
+git diff -- staged [filename]
+

@@ -40,3 +40,14 @@ is equivalent to
    git branch new_branch_name
  and 
    git checkout new_branch_name
+
+
+ git merge master coins
+ didn't ask for a commit message, just did it automagically
+is there a difference between
+  git merge A B
+and
+  git merge B A
+??
+
+ 

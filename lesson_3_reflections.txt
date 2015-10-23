@@ -1,2 +1,49 @@
 Nunc nec neque. Duis lobortis massa imperdiet quam. Quisque ut nisi.
 Curabitur vestibulum aliquam leo. Sed lectus. Suspendisse non nisl sit amet velit hendrerit rutrum.
+
+15:26:48 (master) reflections $ git remote
+15:29:00 (master) reflections $ git remote add origin https://github.com/BazilCaygill/reflect_test.git
+
+15:34:10 (master) reflections $ git push origin master
+Username for 'https://github.com': BazilCaygill
+Password for 'https://BazilCaygill@github.com':
+Counting objects: 18, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (18/18), 2.26 KiB | 0 bytes/s, done.
+Total 18 (delta 9), reused 0 (delta 0)
+To https://github.com/BazilCaygill/reflect_test.git
+ * [new branch]      master -> master
+15:37:42 (master) reflections $ git hist
+* c521df6 2015-10-23 | Merging stuff (HEAD, origin/master, master) [Bazil Caygill]
+* a24633f 2015-10-23 | Bits about detached head [Bazil Caygill]
+* ef7c237 2015-10-23 | add stuff about branching [Bazil Caygill]
+* 00a0301 2015-10-23 | Updated reflections [Bazil Caygill]
+* 2540053 2015-10-23 | Add lesson 2 reflections (2nd commit) [Bazil Caygill]
+* 7d4313d 2015-10-23 | This is my first commit: add lesson 1 reflections [Bazil Caygill]
+
+<add file on github.com>
+
+15:46:51 (master) reflections $ git pull origin master
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/BazilCaygill/reflect_test
+ * branch            master     -> FETCH_HEAD
+   c521df6..a00c5dc  master     -> origin/master
+Updating c521df6..a00c5dc
+Fast-forward
+ lesson_3_reflections.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 lesson_3_reflections.txt
+
+15:48:01 (master) reflections $ git hist
+* a00c5dc 2015-10-23 | Create lesson_3_reflections.txt (HEAD, origin/master, master) [Bazil Caygill]
+* c521df6 2015-10-23 | Merging stuff [Bazil Caygill]
+* a24633f 2015-10-23 | Bits about detached head [Bazil Caygill]
+* ef7c237 2015-10-23 | add stuff about branching [Bazil Caygill]
+* 00a0301 2015-10-23 | Updated reflections [Bazil Caygill]
+* 2540053 2015-10-23 | Add lesson 2 reflections (2nd commit) [Bazil Caygill]
+* 7d4313d 2015-10-23 | This is my first commit: add lesson 1 reflections [Bazil Caygill]
+

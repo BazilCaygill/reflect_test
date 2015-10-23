@@ -34,3 +34,9 @@ Switched to branch 'easymode'
 * easymode
   master
 
+
+   git checkout -b new_branch_name
+is equivalent to
+   git branch new_branch_name
+ and 
+   git checkout new_branch_name

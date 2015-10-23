@@ -47,3 +47,18 @@ Fast-forward
 * 2540053 2015-10-23 | Add lesson 2 reflections (2nd commit) [Bazil Caygill]
 * 7d4313d 2015-10-23 | This is my first commit: add lesson 1 reflections [Bazil Caygill]
 
+15:54:08 (master) reflections $ cd ..
+16:01:42 version-control $ git clone https://github.com/BazilCaygill/recipes.git
+Cloning into 'recipes'...
+remote: Counting objects: 13, done.
+remote: Total 13 (delta 0), reused 0 (delta 0), pack-reused 13
+Unpacking objects: 100% (13/13), done.
+
+16:03:18 version-control $ cd recipes/
+16:03:24 (master) recipes $ ls
+README.md  cake-recipe.txt  chili-recipe.txt  frosting-recipe.txt
+16:03:27 (master) recipes $ git remote -v
+origin  https://github.com/BazilCaygill/recipes.git (fetch)
+origin  https://github.com/BazilCaygill/recipes.git (push)
+
+
